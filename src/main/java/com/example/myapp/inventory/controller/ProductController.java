@@ -16,8 +16,12 @@ public class ProductController {
     @GetMapping
     public List<Product> getAllProducts() {
         return Arrays.asList(
-            new Product(1L, "Laptop", 999.99),
-            new Product(2L, "Smartphone", 599.49)
+            new Product(1L, "Laptop", 23467328.99),
+            new Product(2L, "Smartphone", 126113.49),
+            new Product(3L, "Headphones", 950.99),
+            new Product(3L, "Clothes", 78359.99),
+            new Product(3L, "Shoes", 3458.46),
+            new Product(3L, "Electronics", 23467.99)
         );
     }
 }
