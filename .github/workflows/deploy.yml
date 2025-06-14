@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build JAR
-        run: mvn clean package
+        run: mvn clean install
 
       - name: Deploy via SCP
         uses: appleboy/scp-action@v0.1.4
