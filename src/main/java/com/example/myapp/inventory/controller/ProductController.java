@@ -21,7 +21,8 @@ public class ProductController {
             new Product(3L, "Headphones", 950.99),
             new Product(3L, "Clothes", 78359.99),
             new Product(3L, "Shoes", 3458.46),
-            new Product(3L, "Electronics", 23467.99)
+            new Product(3L, "Electronics", 23467.99),
+            new Product(3L, "Electronics", 7986.99)
         );
     }
 }
